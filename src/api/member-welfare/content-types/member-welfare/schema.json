@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "member_welfares",
+  "info": {
+    "singularName": "member-welfare",
+    "pluralName": "member-welfares",
+    "displayName": "member welfare"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "info": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "blocks",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

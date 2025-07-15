@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "forms",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "Product"
+    "singularName": "form",
+    "pluralName": "forms",
+    "displayName": "form"
   },
   "options": {
     "draftAndPublish": true
@@ -15,15 +15,13 @@
     }
   },
   "attributes": {
-    "Name": {
+    "career": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "maxLength": 71,
-      "required": true
+      }
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "loans",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "Product"
+    "singularName": "loan",
+    "pluralName": "loans",
+    "displayName": "loan"
   },
   "options": {
     "draftAndPublish": true
@@ -15,15 +15,20 @@
     }
   },
   "attributes": {
-    "Name": {
-      "type": "string",
+    "loan_image": {
+      "type": "media",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "maxLength": 71,
-      "required": true
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

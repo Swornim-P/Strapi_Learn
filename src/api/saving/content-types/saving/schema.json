@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "savings",
+  "info": {
+    "singularName": "saving",
+    "pluralName": "savings",
+    "displayName": "saving"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "saving_image": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
